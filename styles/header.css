@@ -1,0 +1,78 @@
+.header-container {
+    background: url(../Images/intro-bg.jpg) no-repeat center bottom;
+    background-color:rgba(248, 248, 248, 0); 
+    padding: 0;
+    height: 700px;
+}
+#nav-container {
+    background-color: rgba(248, 248, 248, 0); 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;    
+    background-color: #343b42;    
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;    
+    color: rgba(255, 255, 255, 0.7);
+    top: 0;
+    right: 0;
+    text-align: center;
+    width: 500px;
+    z-index: 300;
+    margin-left: auto;
+}
+.nav-header {
+    top: 0;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 50px;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: (248, 248, 248, 0); 
+    width: 100px;
+    z-index: 300;
+}
+.nav:hover, .nav-header:hover {
+    color:rgb(70, 179, 186);
+    cursor: pointer;
+}
+.header {
+    padding-top: 55px;
+}
+.intro-text {
+    width: 100%;
+    text-align: center;
+    
+}
+.intro-text h1 {
+    color: rgba(255, 255, 255, 0.9);;
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.intro-text p {
+    color: rgba(255, 255, 255, 0.8);;
+    font-size: 22px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.btn-custom {
+    background-color: rgb(84, 208, 221);
+    color: rgb(65, 74, 82);
+    width: 150px;
+    font-size: 16px;
+    margin: 0;
+    padding: 14px 20px;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.btn-custom:hover {
+    color: rgb(84, 208, 221);
+    background-color: rgb(65, 74, 82);
+}
